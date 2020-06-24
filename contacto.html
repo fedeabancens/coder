@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Contacto</title>
+</head>
+<body>
+	<header class="header">
+		<!-- Navegación -->	
+		<img src="img/logo-saac.jpg" height="100" class="logosaac">	
+		<div class="nav">
+			<nav>
+				<a href="index.html">Inicio</a>
+				<a href="nosotros.html">Nosotros</a>
+				<a href="proyectos.html">Proyectos</a>
+				<a href="donar.html">Donar</a>
+				<a href="contacto.html">Contacto</a>
+			</nav>
+		</div>
+		</header>
+	<!-- Slider -->
+	<img src="https://via.placeholder.com/1080x200.png" class="sliderimg">
+
+	<!-- Formulario -->
+	<form  action="#" method="GET">
+		
+		<label for="name">Nombre</label>
+		<br>
+		<input id="name" name="name" type="text" name="" placeholder="Federico" required>
+		<br>
+		<label for="email">Correo Electrónico</label>
+		<br>
+		<input type="email" name="email" id="email" placeholder="ejemplo@mail.com" required>
+		<br>
+		<label for="estciv">Estado Civil</label>
+		<br>
+		<select id="estciv" name="estciv" required>
+			<option selected disabled>Seleccione</option>
+			<option value="soltero">Soltero/a</option>
+			<option value="casado">Casado/a</option>
+			<option value="divorciado">Divorciado/a</option>
+			<option value="viudo">Viudo/a</option>
+		</select>
+		<br>
+		<label for="news">¿Desea recibir Newsletter?</label>
+		<input type="checkbox" id="news" name="news">
+		<br>
+		<label for="commnts">Comentarios</label>
+		<br>
+		<textarea id="commnts" placeholder="Comentarios" name="commnts" required></textarea>
+		<br>		
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+
+	</form>
+
+	<div class="foot">
+		<footer>
+		<p>Desarrollado por <a href="https://scouts.org.ar"> Scouts de Argentina </a> - Todos los derechos reservados.</p>
+		</footer>
+	</div>
+
+</body>
+</html>
